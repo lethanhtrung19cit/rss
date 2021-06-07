@@ -1,0 +1,5 @@
+include ':volley1'
+include ':volley'
+include ':app'
+project(':volley1').projectDir = new File(rootDir, 'volley/')
+rootProject.name = "RetrofitRss"
